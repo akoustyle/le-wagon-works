@@ -1,0 +1,98 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,700&display=swap');
+
+
+a {
+  color: #1A73E8;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  color: #A2FCC0;
+}
+h1, h2 {
+  color: #1A73E8;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #C6D8EB;
+  color: #0F3760
+}
+
+#profile {
+  border-radius: 50%;
+}
+#white{
+  color:white;
+}
+
+#white:hover{
+  color:#A2FCC0;
+}
+
+.container{
+  padding: 50px;
+  background-color: #C6D8EB;
+  width: 500px;
+  text-align: center;
+  margin: 50px auto;
+  border-radius: 30px;
+  box-shadow: 0px 4px 20px rgba(5, 5, 5, 0.7);
+}
+
+.card{
+  margin: 50px, auto;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: #0F3760;
+  padding: 10px 20px;
+}
+
+.list-inline{
+  list-style:none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px
+}
+.greenish{
+  color:#A2FCC0;
+}
+.bluish{
+  color:#1A73E8;
+}
+i {
+  font-size: 20px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 200px;
+  }
+}
