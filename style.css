@@ -92,6 +92,7 @@ i {
   .container {
     width: 300px;
     margin-left: 50px;
+    margin-right: 50px;
   }
 }
 @media (max-width: 340px) {
@@ -99,5 +100,6 @@ i {
   .container {
     width: 200px;
     margin-left: 0px;
+    margin-right: 0px;
   }
 }
