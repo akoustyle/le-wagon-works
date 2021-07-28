@@ -23,6 +23,7 @@ h1 {
 body {
   font-family: 'Quicksand', sans-serif;
   background-color: #C6D8EB;
+  background-image: url(images/AAAABZDGobvWVz6vKqz83QgOmn4GB1FiaGWzryfPES8Z2r6EYsnmUWp_g6BFiQciEiGFpPc9TRL68XalVmW_BAXAsUqhg-hZ4h3DwxOG.png);
   color: #0F3760
 }
 
@@ -42,7 +43,9 @@ body {
   background-color: #C6D8EB;
   width: 500px;
   text-align: center;
-  margin: 50px auto;
+  margin: 50px;
+  margin-right: 20px;
+  margin-left: 650px;
   border-radius: 30px;
   box-shadow: 0px 4px 20px rgba(5, 5, 5, 0.7);
 }
