@@ -81,19 +81,19 @@ i {
 }
 
 
-@media (max-width: 960px) {
+@media (max-width: 760px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 500px;
   }
 }
-@media (max-width: 720px) {
+@media (max-width: 520px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
     width: 300px;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 340px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 200px;
